@@ -1,0 +1,40 @@
+<nav>
+  <div class="row">
+    <div class="nav-icon left" ng-click="back()">
+      <i class="fa fa-chevron-left"></i>
+    </div>
+    <div class="nav-desc">
+      {{data.title}}
+    </div>
+    <div class="nav-icon right" ng-click="barOpen()">
+      <i class="fa fa-bars"></i>
+    </div>
+  </div>
+</nav>
+<div class="products">
+  <div class="product" ng-repeat="product in data.list">
+    <div class="product-img">
+      <img ng-src="{{product.img}}" alt="">
+    </div>
+    <h1>{{product.name}}</h1>
+    <p ng-bind-html="product.desc"></p>
+    <div class="porduct-operation">
+      <div class="row">
+        <div class="col-6 product-price">
+          <div class="product-price-original">
+            <span class="label">京东价：</span>
+            <span class="num">¥{{product.originalPrice}}</span>
+          </div>
+          <div class="product-price-current">
+            <span class="label">价格：</span>
+            <span class="num">¥{{product.currentPrice}}</span>
+          </div>
+        </div>
+        <div class="col-6 product-btn">
+          <button class="button button-primary" ng-click="buy()">立即购买</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

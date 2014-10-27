@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>帮助文档</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+
+	<body>
+        api帮助文档说明书<br>
+		<div>
+			<u><i>访问api网址</i></u><br>
+			http://1.dbapi.sinaapp.com/api/index.php
+		</div>
+		<div>
+			<br><u><i>api类型</i></u>
+			<br>访问栏目<br>
+			@param,type=index&range=all返回所有栏目信息
+			<br>访问栏目下资讯<br>
+			@param,type=article&range=n-m-i其中n表示栏目id,从id栏第m个资讯开始,共返回i条记录，若i大于库中全部记录数，返回库中全部记录数
+			<br>访问指定学生学号的课表<br>
+			@param,type=szu_lesson&studentNo=20093910&studentName=名,studentNo表示返回课程的学号,studentName表示进行权限验证的学生名保证信息安全
+		</div>
+		<div>
+			<br><u><i>错误码</i></u>
+			@code
+			<br>200 --- __OK__
+			<br>500 --- __ERROR__
+			<br>210 --- 不符合的参数
+			<br>404 --- 类型找不到
+			
+			<br>1001 --- 学生信息找不到
+		</div>
+    </body>
+</html>

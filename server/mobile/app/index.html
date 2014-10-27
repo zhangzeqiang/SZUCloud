@@ -1,0 +1,140 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>深大云</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon-precomposed" href="images/common/logo/touch-icon-iphone.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/common/logo/touch-icon-ipad.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/common/logo/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/common/logo/touch-icon-ipad-retina.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/page-index.css">
+    <link rel="stylesheet" href="styles/page-discover.css">
+    <link rel="stylesheet" href="styles/page-article.css">
+    <link rel="stylesheet" href="styles/page-food.css">
+    <link rel="stylesheet" href="styles/page-restaurant.css">
+    <link rel="stylesheet" href="styles/page-shop.css">
+    <link rel="stylesheet" href="styles/page-list.css">
+    <link rel="stylesheet" href="styles/page-course.css">
+    <link rel="stylesheet" href="styles/page-notfound.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="yunNavApp" ng-controller="GlobalCtrl">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="container">
+
+      <div class="main" ng-view=""></div>
+
+      <footer>
+        <div class="menus">
+          <div class="row">
+            <div class="menu col-6" ng-class="{'hover': path === '/' || path === ''}" ng-click="menu('/')">
+              <div class="menu-icon">
+                <i class="fa fa-th"></i>
+              </div>
+              <p class="menu-desc">
+                订阅
+              </p>
+            </div>
+            <div class="menu col-6" ng-class="{'hover': path === '/discover'}" ng-click="menu('/discover')">
+              <div class="menu-icon">
+                <i class="fa fa-compass"></i>
+              </div>
+              <p class="menu-desc">
+                发现
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="cover" ng-click="barClose()"></div>
+    </div>
+
+    <div class="bar">
+      <ul>
+        <li class="bar-logo">
+          <img src="images/common/logo/shop.jpg" alt="">
+        </li>
+        <li>
+          <i class="fa fa-home"></i>
+          首页
+        </li>
+        <li>
+          <i class="fa fa-shopping-cart"></i>
+          购物车
+        </li>
+        <li>
+          <i class="fa fa-map-marker"></i>
+          地址管理
+        </li>
+      </ul>
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=37800993" charset="UTF-8"></script>
+     <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/oldieshim.js -->
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.js"></script>
+    <![endif]-->
+    <!-- endbuild -->
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/zepto-full/zepto.js"></script>
+    <script src="bower_components/swipe/swipe.js"></script>
+    <script src="bower_components/store.js/store.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/global.js"></script>
+        <script src="scripts/controllers/index.js"></script>
+        <script src="scripts/controllers/discover.js"></script>
+        <script src="scripts/controllers/article.js"></script>
+        <script src="scripts/controllers/food.js"></script>
+        <script src="scripts/controllers/restaurant.js"></script>
+        <script src="scripts/controllers/shop.js"></script>
+
+        <script src="scripts/services/index.js"></script>
+        <script src="scripts/controllers/list.js"></script>
+        <script src="scripts/controllers/notfound.js"></script>
+        <script src="scripts/controllers/course.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

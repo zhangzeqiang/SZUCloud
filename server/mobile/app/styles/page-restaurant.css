@@ -1,0 +1,90 @@
+.restaurant-header {
+  position: relative;
+}
+.restaurant-good {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 7px;
+}
+.restaurant-good p {
+  font-size: .5em;
+}
+.restaurant-img img {
+  width: 100%;
+}
+.restaurant-nav {
+  margin-top: -5px;
+  border-bottom: 1px solid #ddd;
+}
+.restaurant-nav-item {
+  text-align: center;
+  padding: 10px 0;
+  color: #A0A0A0;
+  background-color: #F4F4F4;
+}
+.restaurant-nav-item:hover {
+  color: #F94545;
+}
+.restaurant-nav-item.active {
+  color: #F94545;
+  background-color: #fff;
+}
+.restaurant-info h1 {
+  font-size: .9em;
+  padding: 2px 10px;
+  background-color: #F3F3F3;
+  color: #959595;
+}
+.restaurant-info-item {
+  padding: 10px;
+  font-size: .9em;
+  color: #9A9A9A;
+}
+.restaurant-info-item .odd {
+  background-color: #d3d3d3;
+  color: #fff;
+}
+.restaurant-info-item .price {
+  text-align: center;
+}
+.restaurant-info-item a {
+  color: #4C9EE0;
+}
+.restaurant-info-item .fa-star {
+  color: #FED300;
+}
+.restaurant-comment-img {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.7em;
+  padding-top: 7px;
+  color: #ddd;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #F1F1F1;
+}
+.restaurant-comment {
+  padding: 10px 0;
+  border-bottom: 1px solid #EFEFEF;
+}
+.restaurant-comment-name {
+  color: #4F4F4F;
+  font-size: .9em;
+}
+.restaurant-comment-time {
+  color: #9C9C9C;
+  font-size: .7em;
+}
+.restaurant-comment-content {
+  color: #4F4F4F;
+  font-size: .9em;
+}

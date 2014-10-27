@@ -1,0 +1,48 @@
+{
+  "data": {
+    "title": "云商城－手机平板",
+    "list": [
+      {
+        "id": 0,
+        "img": "images/shop/phone/img-1.jpg",
+        "name": "iphone 6",
+        "desc": "港版4.7寸原封i6 黑16G (5340¥)<br>港版4.7寸原封i6 白16G (5340¥)<br>港版4.7寸原封i6 金16G (5540¥)<br>港版4.7寸原封i6 金64G (6790¥)<br>港版4.7寸原封i6 黑128G (6790¥)<br>港版4.7寸原封i6 白128G (7790¥)<br>港版4.7寸原封i6 金128G (7240¥)<br>港版5.5寸原封i6 黑16G (6140¥)<br>港版5.5寸原封i6 金16G (6740¥)<br>因价格起伏具体电话咨询为准",
+        "originalPrice": "无",
+        "currentPrice": "无"
+      },
+      {
+        "id": 1,
+        "img": "images/shop/phone/img-2.jpg",
+        "name": "iphone 5",
+        "desc": "原封港版5S 黑16G (3750¥)<br>原封港版5S 白16G (3760¥)<br>原封港版5S 金16G (3720¥)<br>原封美版三网5S 黑16G (3760¥)<br>原封美版三网5S 白16G (3760¥)<br>原封美版三网5S 金16G (3760¥)<br>原封港版5代 黑16G (2640¥)<br>原封港版5代 白16G (2640¥)<br>因价格起伏具体电话咨询为准",
+        "originalPrice": "无",
+        "currentPrice": "无"
+      },
+      {
+        "id": 2,
+        "img": "images/shop/phone/img-3.jpg",
+        "name": "iphone 4",
+        "desc": "4S-8G 黑 (2040¥)<br>4S-8G 白 (2040¥)<br>4S-8G 电信 黑 (2240¥)<br>4S-8G 电信 白 (2240¥)<br>因价格起伏具体电话咨询为准",
+        "originalPrice": "无",
+        "currentPrice": "无"
+      },
+      {
+        "id": 3,
+        "img": "images/shop/phone/img-4.jpg",
+        "name": "ipad air",
+        "desc": "原封港版ipad air wifi 黑16G (2870¥)<br>原封港版ipad air wifi 白16G (2860¥)<br>原封港版ipad air wifi 黑32G (3410¥)<br>原封港版ipad air wifi 白32G (3390¥)<br>原封港版ipad air wifi 黑64G (3760¥)<br>原封港版ipad air wifi 白64G (3760¥)<br>原封港版ipad air 4G 黑16G (3760¥)<br>原封港版ipad air 4G 白16G (3760¥)<br>原封港版ipad air 4G 黑32G (4280¥)<br>原封港版ipad air 4G 白32G (4280¥)<br>原封港版ipad air 4G 黑64G (4480¥)<br>原封港版ipad air 4G 白64G (4480¥)<br>因价格起伏具体电话咨询为准",
+        "originalPrice": "无",
+        "currentPrice": "无"
+      },
+      {
+        "id": 4,
+        "img": "images/shop/phone/img-4.jpg",
+        "name": "ipad min",
+        "desc": "原封港版mini二代 wifi 黑16G (2240¥)<br>原封港版mini二代 wifi 白16G (2240¥)<br>原封港版mini二代 wifi 黑32G (2980¥)<br>原封港版mini二代 wifi 白32G (2960¥)<br>原封港版mini二代 wifi 黑64G (3260¥)<br>原封港版mini二代 wifi 白64G (3260¥)<br>因价格起伏具体电话咨询为准",
+        "originalPrice": "无",
+        "currentPrice": "无"
+      }
+    ]
+  }
+  
+}

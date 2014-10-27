@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "img": "images/common/icon/icon3.jpg",
+      "name": "数码天地",
+      "isNative": true,
+      "href": "/article/skill",
+      "isAdd": true
+    },
+    {
+      "img": "images/common/icon/icon2.jpg",
+      "name": "励志创业",
+      "isNative": true,
+      "href": "/article/enterprise",
+      "isAdd": true
+    },
+    {
+      "img": "images/common/icon/icon7.jpg",
+      "name": "云商城",
+      "isNative": true,
+      "href": "/shop",
+      "isAdd": true
+    },
+    {
+      "img": "images/common/icon/icon5.jpg",
+      "name": "深大外卖",
+      "isNative": true,
+      "href": "/notfound",
+      "isAdd": true
+    },
+    {
+      "img": "images/common/icon/icon6.jpg",
+      "name": "梦约定",
+      "isNative": true,
+      "href": "/article/dream",
+      "isAdd": true
+    }
+  ]
+}

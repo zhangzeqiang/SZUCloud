@@ -1,0 +1,22 @@
+{
+  "data": {
+    "title": "云商城-首页",
+    "categories": [
+      {
+        "type": "laptop",
+        "name": "笔记本电脑",
+        "img": "images/shop/category/img-1.jpg"
+      },
+      {
+        "type": "desktop",
+        "name": "台式电脑",
+        "img": "images/shop/category/img-2.jpg"
+      },
+      {
+        "type": "phone",
+        "name": "手机平板",
+        "img": "images/shop/category/img-3.jpg"
+      }
+    ]
+  }
+}

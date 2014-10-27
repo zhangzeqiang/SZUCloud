@@ -1,0 +1,25 @@
+<nav>
+  <div class="row">
+    <div class="nav-icon left" ng-click="back()">
+      <i class="fa fa-chevron-left"></i>
+    </div>
+    <div class="nav-desc">
+      {{data.title}}
+    </div>
+    <div class="nav-icon right" ng-click="barOpen()">
+      <i class="fa fa-bars"></i>
+    </div>
+  </div>
+</nav>
+<div class="categories">
+  <div class="category" ng-repeat="category in data.categories" ng-click="redirect(category.type)">
+    <div class="row">
+      <div class="col-8 category-img">
+        <img ng-src="{{category.img}}" alt="">
+      </div>
+      <div class="col-4 category-desc">
+        <span>{{category.name}}</span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+<header>
+  <div id='sliders' class='sliders'>
+    <div class='slider-wrap'>
+      <div class="slider">
+        <img src="images/index/slider/001.jpg" alt="">
+      </div>
+      <div class="slider">
+        <img src="images/index/slider/002.jpg" alt="">
+      </div>
+      <div class="slider">
+        <img src="images/index/slider/003.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="bullets"></div>
+</header>
+<div class="items">
+  <div class="row">
+    <div class="item col-4" ng-repeat="item in items" ng-show="item.isAdd" ng-click="redirect(item)">
+      <div class="item-icon">
+        <img ng-src="{{item.img}}" alt="">
+      </div>
+      <p class="item-desc">
+        {{item.name}}
+      </p>
+    </div>
+    <div class="item col-4" ng-click="addItem()">
+      <i class="fa fa-plus"></i>
+    </div>
+  </div>
+</div>

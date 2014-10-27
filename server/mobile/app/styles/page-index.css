@@ -1,0 +1,62 @@
+header {
+  position: relative;
+}
+.bullets {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  text-align: center;
+}
+.bullets div {
+  margin: 0 2px;
+  display: inline-block;
+  _display: block;
+  zoom: 1;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #d3d3d3;
+}
+.bullets div.active {
+  background-color: #fff;
+}
+.sliders {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.slider-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.slider {
+  float:left;
+  width:100%;
+  position: relative;
+}
+.slider img {
+  width: 100%;
+}
+.items {
+  margin-top: -5px;
+  padding-bottom: 100px;
+}
+.item {
+  height: 101px;
+  padding: 20px 0;
+  text-align: center;
+  border: 1px solid #F2F2F2;
+}
+.item i {
+  margin-top: 18px;
+  font-size: 1.6em;
+  color: #F94545;
+}
+.item-icon img {
+  width: 40px;
+}
+.item-desc {
+  font-size: .8em;
+  color: #1A1A1A;
+}

@@ -1,0 +1,15 @@
+<div class="lists">
+  <div class="list" ng-repeat="list in lists">
+    <div class="row">
+      <div class="list-img col-3">
+        <img ng-src="{{list.img}}" alt="">
+      </div>
+      <div class="list-desc col-7">
+        {{list.name}}
+      </div>
+      <div class="list-icon col-2" ng-click="changeState($index)">
+        <i class="fa" ng-class="{true: 'fa-check-circle', false: 'fa-plus'}[list.isAdd]"></i>
+      </div>
+    </div>
+  </div>
+</div>

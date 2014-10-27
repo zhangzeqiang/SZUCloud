@@ -1,0 +1,29 @@
+.lists {
+  padding-bottom: 100px;
+}
+.list {
+  padding: 10px 0;
+  border-bottom: 1px solid #F2F2F2;
+}
+.list-img {
+  text-align: center;
+}
+.list-img img {
+  width: 40px;
+}
+.list-desc {
+  line-height: 40px;
+}
+.list-icon {
+  padding-top: 10px;
+  text-align: center;
+}
+.list-icon i {
+  font-size: 1.5em;
+}
+.list-icon .fa-plus {
+  color: #d3d3d3;
+}
+.list-icon .fa-check-circle {
+  color: #F94545;
+}

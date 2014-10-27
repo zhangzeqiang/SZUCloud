@@ -1,0 +1,20 @@
+.notfound {
+  padding: 40px 20px;
+}
+.notfound-icon {
+  text-align: center;
+  font-size: 7em;
+  color: #E0E0E0;
+}
+.notfound-desc {
+  text-align: center;
+  font-size: .8em;
+  color: #C4C4C4;
+  padding-bottom: 20px;
+}
+.notfound-desc a {
+  color: #4C9EE0;
+}
+.notfound-btn a {
+  width: 100%;
+}

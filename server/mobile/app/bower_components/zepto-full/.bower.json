@@ -1,0 +1,17 @@
+{
+  "name": "zepto-full",
+  "description": "Zepto.js shim built full with all available modules.",
+  "version": "1.1.2",
+  "main": "./zepto.js",
+  "homepage": "https://github.com/cryptoquick/zepto-full",
+  "_release": "1.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.1.2",
+    "commit": "a10022f0f6a33f4edad41e1f0aaf965bcf0e834e"
+  },
+  "_source": "git://github.com/cryptoquick/zepto-full.git",
+  "_target": "~1.1.2",
+  "_originalSource": "zepto-full",
+  "_direct": true
+}

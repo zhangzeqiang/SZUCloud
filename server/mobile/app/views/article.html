@@ -1,0 +1,36 @@
+<nav>
+  <div class="row">
+    <div class="nav-icon left" ng-click="back()">
+      <i class="fa fa-chevron-left"></i>
+    </div>
+    <div class="nav-desc">
+      {{data.title}}
+    </div>
+    <div class="nav-icon right" ng-click="toggleSearch()" ng-class="{'close': searchState}">
+      <i class="fa" ng-class="{true: 'fa-times', false: 'fa-search'}[searchState]"></i>
+    </div>
+  </div>
+</nav>
+<div class="search" ng-show="searchState">
+  <div class="search-input">
+    <input type="text" placeholder="搜索内容" ng-model="searchContent">
+    <i class="fa fa-search"></i>
+  </div>
+</div>
+<div class="articles">
+  <a class="article" ng-repeat="article in data.list | filter: searchContent" ng-href="{{article.href}}" target="_blank">
+    <div class="row">
+      <div class="article-img col-4">
+        <img ng-src="{{article.img}}" alt="">
+      </div>
+      <div class="col-8">
+        <h1 class="article-title">
+          {{article.title}}
+        </h1>
+        <p class="article-content">
+          {{article.content}}
+        </p>
+      </div>
+    </div>
+  </a>
+</div>

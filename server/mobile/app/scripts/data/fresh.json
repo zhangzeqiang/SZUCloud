@@ -1,0 +1,31 @@
+{
+  "data": {
+    "title": "新生手册",
+    "list": [
+      {
+        "img": "images/article/fresh/img1.jpg",
+        "href": "http://mp.weixin.qq.com/s?__biz=MzAxMDA3NTIwNQ==&mid=213761967&idx=1&sn=ac0082259467b1016f7bba832d10b688#rd",
+        "title": "写给大一的朋友",
+        "content": "如何才能赢在起跑线上，为自己精彩完美的大学创造一个好的序幕"
+      },
+      {
+        "img": "images/article/fresh/img2.jpg",
+        "href": "http://mp.weixin.qq.com/s?__biz=MzAxMDA3NTIwNQ==&mid=213763008&idx=1&sn=47688003735db02b508ab2d9db3f45d2#rd",
+        "title": "校内生活攻略",
+        "content": "提供一些小tip，为新生校内生活提供便利，帮助新生融入校园生活"
+      },
+      {
+        "img": "images/article/fresh/img3.jpg",
+        "href": "http://mp.weixin.qq.com/s?__biz=MzAxMDA3NTIwNQ==&mid=213892058&idx=1&sn=719b2ccfbca8e59c131f67a34a2d695f#rd",
+        "title": "深大-大社团",
+        "content": "深圳大学学生会建立于1983年，至今已有31年历史"
+      },
+      {
+        "img": "images/article/fresh/img4.jpg",
+        "href": "http://mp.weixin.qq.com/s?__biz=MzAxMDA3NTIwNQ==&mid=213931603&idx=1&sn=db812fca3d644483bea363e2df1efbea#rd",
+        "title": "吃喝玩乐篇",
+        "content": "最近这家川菜馆火速上位，名气非常大，各路吃货纷沓至此"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "data": {
+    "title": "校园资讯",
+    "list": [
+      {
+        "img": "images/article/info/img1.jpg",
+        "href": "http://mp.weixin.qq.com/s?__biz=MzAxMDA3NTIwNQ==&mid=213890950&idx=1&sn=4130031b477d06262fd32b7bbdb20ebd#rd",
+        "title": "献给所有迷茫的大学生",
+        "content": "是努力还是沉迷，是懒惰还是勤奋，是珍惜还是荒废"
+      },
+      {
+        "img": "images/article/info/img2.jpg",
+        "href": "http://mp.weixin.qq.com/s?__biz=MzAxMDA3NTIwNQ==&mid=213745192&idx=1&sn=c89a781d3980ff826eef2979c8a2ef13#rd",
+        "title": "大学生必知的17条法则",
+        "content": "只有知道如何停止的人才知道如何加快速度。"
+      }
+    ]
+  }
+}

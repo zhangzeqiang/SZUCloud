@@ -1,0 +1,59 @@
+<nav>
+  <div class="row">
+    <div class="nav-icon left" ng-click="back()">
+      <i class="fa fa-chevron-left"></i>
+    </div>
+    <div class="nav-desc">
+      深大外卖
+    </div>
+    <div class="nav-icon right" ng-click="toggleSearch()" ng-class="{'close': searchState}">
+      <i class="fa" ng-class="{true: 'fa-times', false: 'fa-search'}[searchState]"></i>
+    </div>
+  </div>
+</nav>
+<div class="search" ng-show="searchState">
+  <div class="search-input">
+    <input type="text" placeholder="店名/电话" ng-model="searchContent">
+    <i class="fa fa-search"></i>
+  </div>
+</div>
+<div class="foods">
+  <div class="food" ng-repeat="food in foods | filter: searchContent">
+    <div class="row">
+      <div class="col-4">
+        <a class="food-tel color-{{color($index)}}" ng-href="tel:{{food.tel_short || food.tel_short}}">
+          <i class="fa fa-phone"></i>
+        </a>
+      </div>
+      <div class="col-6">
+        <h1 class="food-title">
+          {{food.name}}
+        </h1>
+        <div class="food-tel-long">
+          电话：<a href="tel:{{food.tel_long}}" ng-show="food.tel_long">{{food.tel_long}}</a>
+          <span ng-hide="food.tel_long">无</span>
+        </div>
+        <div class="food-tel-short">
+          短号：<a href="tel:{{food.tel_short}}" ng-show="food.tel_short">{{food.tel_short}}</a>
+          <span ng-hide="food.tel_short">无</span>
+        </div>
+        <div class="food-star">
+          推荐指数：<i class="fa fa-star" ng-repeat="tmp in arr(food.star)"></i>
+        </div>
+        <div class="food-info">
+          <span>
+            <i class="fa fa-thumbs-o-up"></i>
+            {{food.like}}
+          </span>
+          <span>
+            <i class="fa fa-comments"></i>
+            {{food.comment}}
+          </span>
+        </div>
+      </div>
+      <div class="food-detail col-2" ng-click="detail(food.id)">
+        <i class="fa fa-chevron-right"></i>
+      </div>
+    </div>
+  </div>
+</div>

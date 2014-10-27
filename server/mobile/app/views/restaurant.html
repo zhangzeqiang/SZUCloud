@@ -1,0 +1,92 @@
+<nav>
+  <div class="row">
+    <div class="nav-icon left" ng-click="back()">
+      <i class="fa fa-chevron-left"></i>
+    </div>
+    <div class="nav-desc">
+      深大外卖
+    </div>
+  </div>
+</nav>
+<div class="restaurant">
+  <div class="restaurant-header">
+    <div class="restaurant-img">
+      <img ng-src="{{data.img}}" alt="">
+    </div>
+    <div class="restaurant-good">
+      <i class="fa fa-thumbs-o-up"></i>
+      <p>{{data.like}}</p>
+    </div>
+  </div>
+  <div class="restaurant-nav">
+    <div class="row">
+      <div class="restaurant-nav-item col-6" ng-class="{active: tabState}"  ng-click="changeState(true)">
+        信息
+      </div>
+      <div class="restaurant-nav-item col-6" ng-class="{active: !tabState}"  ng-click="changeState(false)">
+        评论
+      </div>
+    </div>
+  </div>
+  <div class="restaurant-content">
+    <div class="restaurant-info" ng-show="tabState">
+      <h1>商户信息</h1>
+      <div class="restaurant-info-item">
+        <div>
+          店名：{{data.name}}
+        </div>
+        <div>
+          推荐指数：<i class="fa fa-star" ng-repeat="tmp in arr(data.star)"></i>
+        </div>
+        <div>
+          电话：<a href="tel:{{data.tel_long}}" ng-show="data.tel_long">{{data.tel_long || '无'}}</a>
+          <span ng-hide="data.tel_long">无</span>
+        </div>
+        <div>
+          短号：<a href="tel:{{data.tel_short}}" ng-show="data.tel_short">{{data.tel_short || '无'}}</a>
+          <span ng-hide="data.tel_short">无</span>
+        </div>
+        <div>
+          地址：{{data.location}}
+        </div>
+        <div>
+          备注：{{data.other || '无'}}
+        </div>
+      </div>
+      <h1>菜单</h1>
+      <div class="restaurant-info-item">
+        <div class="row" ng-repeat="menu in data.menus" ng-class-odd="'odd'">
+          <div class="col-11">
+            {{menu.name}}
+          </div>
+          <div class="price col-1">
+            ¥{{menu.price}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="restaurant-comments" ng-hide="tabState">
+      <div class="restaurant-comment" ng-repeat="comment in data.comments">
+        <div class="row">
+          <div class="col-3">
+            <div class="restaurant-comment-img">
+              <i class="fa fa-user"></i>
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="restaurant-comment-name">
+              {{comment.name}}
+            </div>
+            <div class="restaurant-comment-time">
+              {{comment.time}}
+            </div>
+            <div class="restaurant-comment-content">
+              {{comment.content}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

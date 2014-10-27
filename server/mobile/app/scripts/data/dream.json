@@ -1,0 +1,25 @@
+{
+  "data": {
+    "title": "梦约定系列",
+    "list": [
+      {
+        "img": "images/article/dream/img1.jpg",
+        "href": "http://mp.weixin.qq.com/s?__biz=MjM5MTAwMzQyNg==&mid=232401066&idx=1&sn=ad1ffed8d3c810f0af09adc16e982fa8#rd",
+        "title": "邂逅深大女神",
+        "content": "我们终有一天会从深大出发，去到一个更远的远方。"
+      },
+      {
+        "img": "images/article/dream/img2.jpg",
+        "href": "http://mp.weixin.qq.com/s?__biz=MjM5MTAwMzQyNg==&mid=227782696&idx=1&sn=d073fd45f3c770a84cb5e1e11cc28528#rd",
+        "title": "致最美的闺蜜",
+        "content": "我们在这里相遇，与你初识，是最为之幸福的事。"
+      },
+      {
+        "img": "images/article/dream/img3.jpg",
+        "href": "http://mp.weixin.qq.com/s?__biz=MjM5MTAwMzQyNg==&mid=217600606&idx=1&sn=1cb463088c579fd743894efd5cfd7a65#rd",
+        "title": "我们的爱情，从深大开始",
+        "content": "我们之间从未许下任何诺言。我一直在你身旁，你从未离开，这一切就够了。"
+      }
+    ]
+  }
+}

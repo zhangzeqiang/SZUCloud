@@ -1,0 +1,23 @@
+.article {
+  display: block;
+  padding: 5px 0;
+  border-bottom: 1px solid #d3d3d3;
+}
+.article-img {
+  text-align: center;
+  padding-top: 2px;
+}
+.article-img img {
+  width: 95%;
+  border-radius: 10px;
+}
+.article-title {
+  font-size: 1em;
+  color: #363636;
+  padding: 2px 0;
+  font-weight: bold;
+}
+.article-content {
+  font-size: .8em;
+  color: #7E7E7E;
+}

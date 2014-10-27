@@ -1,0 +1,56 @@
+{
+  "data": {
+    "title": "云商城－笔记本",
+    "list": [
+      {
+        "id": 0,
+        "img": "images/shop/laptop/img-1.jpg",
+        "name": "宏碁E1-570G-33214G50dnkk(740-2G)15.6",
+        "desc": "CPU类型第三代智能英特尔酷睿i3处理器i3-3217U，内存容量4GB，硬盘容量500GB，独立显卡NVIDIA GeForce GT740M，显存容量独立2GB，净重2.4kg",
+        "originalPrice": 2999,
+        "currentPrice": 2699
+      },
+      {
+        "id": 1,
+        "img": "images/shop/laptop/img-1.jpg",
+        "name": "宏碁V5-473G-34014G50aii(740-2G)",
+        "desc": "颜色银灰色，CPU类型第四代智能英特尔酷睿双核处理器i3-4010U，内存容量4GB，硬盘容量500GB，独立显卡NVIDIA GeForce GT740M，显存容量独立2GB，屏幕规格14.0英寸，USB3.0接口(1个),净重1.95kg",
+        "originalPrice": 3499,
+        "currentPrice": 3099
+      },
+      {
+        "id": 2,
+        "img": "images/shop/laptop/img-1.jpg",
+        "name": "宏碁V5-473G-54204G50amm(750-4G)",
+        "desc": "CPU类型第四代智能英特尔酷睿双核处理器，内存容量4GB，硬盘容量500GB，独立显卡NVIDIA GeForce GT750M，显存容量4G，屏幕规格14.0英寸，USB 3.0接口(1个)，净重1.95kg",
+        "originalPrice": 4699,
+        "currentPrice": 4399
+      },
+      {
+        "id": 3,
+        "img": "images/shop/laptop/img-2.jpg",
+        "name": "联想G410at i5-4210 4 500 R5M230-2G DVD刻 Win8",
+        "desc": "CPU第四代智能英特尔酷睿i5处理器i5-4210M，内存容量4GB，硬盘容量500GB，独立显卡AMD Radeon R5 M230，显存容量2GB，屏幕尺寸14.0，USB3.0(2个)，净重2.2kg",
+        "originalPrice": 3599,
+        "currentPrice": 3499
+      },
+      {
+        "id": 4,
+        "img": "images/shop/laptop/img-2.jpg",
+        "name": "联想G510at i3-4000 4 500 R5M230-2G DVD刻 15.6磨砂 win8",
+        "desc": "CPU类型第四代智能英特尔酷睿i3处理器i3-4000M，内存容量4GB，硬盘容量500GB，独立显卡AMD Radeon R5 M230，显存容量2GB，屏幕规格15.6英寸，USB3.0(2个)，净重2.6kg",
+        "originalPrice": 3099,
+        "currentPrice": 2899
+      },
+      {
+        "id": 5,
+        "img": "images/shop/laptop/img-2.jpg",
+        "name": "联想联想G510at i5-4210 4 500 R5M230-2G DVD刻 Win8 磨砂",
+        "desc": "CPU类型第四代智能英特尔酷睿i5处理器i5-4210M，内存容量4GB，硬盘容量500GB，独立显卡AMD Radeon R5 M230，显存容量2GB，屏幕规格15.6英寸，USB3.0(2个)，净重2.6kg",
+        "originalPrice": 3699,
+        "currentPrice": 3590
+      }
+    ]
+  }
+  
+}

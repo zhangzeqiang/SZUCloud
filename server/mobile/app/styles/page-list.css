@@ -1,0 +1,39 @@
+.product {
+  background-color: #EFEFEF;
+  margin: 10px;
+}
+.product-img img {
+  width: 100%;
+}
+.product h1 {
+  padding: 10px;
+  color: #313131;
+  font-size: 1em;
+}
+.product p {
+  padding: 0 10px;
+  color: #A7A7A7;
+  font-size: .8em;
+}
+.porduct-operation {
+  padding: 20px 10px;
+}
+.product-price {
+  font-size: .8em;
+  color: #313131;
+  line-height: 20px;
+}
+.product-price .label {
+  display: inline-block;
+  width: 52px;
+}
+.product-price-current .num {
+  color: #E13C42;
+}
+.product-price-original .num {
+  text-decoration: line-through;
+}
+.product-btn {
+  font-size: 1.2em;
+  text-align: right;
+}
