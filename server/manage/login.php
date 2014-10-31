@@ -5,7 +5,7 @@
 		$username = $_POST["username"];
 		$password = $_POST["password"];
 		
-		if ($username == "admin" && $password == "admin"){
+		if ($username == "***" && $password == "***"){
 			$_SESSION["LOGIN_PHP"] = true;
 			header("Location:main.php");
 		}else{
